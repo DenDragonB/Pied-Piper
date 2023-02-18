@@ -1,0 +1,141 @@
+@import url("fonts/Roboto-Black.ttf");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+}
+
+p {
+  font-size: 32px;
+}
+
+.header {
+  background: #007765;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-content {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1219px;
+  padding: 20px 54px 19px 55px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.top-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.suffix {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 160px 55px 160px 55px;
+  margin: 84px auto auto auto;
+
+  background: url("img/suffix.png");
+  background-size: cover;
+  background-position: center center;
+
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+}
+
+.text {
+  box-sizing: border-box;
+  max-width: 1219px;
+  padding: 40px 55px 60px 55px;
+  margin: auto;
+}
+
+.hero {
+  width: 100%;
+  background: url("img/Hero.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-content {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin: auto;
+  padding: 128px 55px 128px 55px;
+  color: #ffffff;
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+}
+
+.ppc-logo {
+  width: 115;
+  height: 115;
+  margin-right: 48px;
+  float: left;
+}
+
+.team {
+  background: #eeeeee;
+  width: 100%;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.member {
+  box-sizing: border-box;
+  width: 350px;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.photo {
+  width: 168px;
+  height: 168px;
+}
+
+.name {
+  color: #007765;
+  font-size: 24px;
+}
+
+.specs {
+  color: #000000;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.footer {
+  background: #333333;
+  width: 100%;
+}
+
+.footer-content {
+  color: #ffffff;
+  font-size: 18;
+  box-sizing: border-box;
+  max-width: 1219px;
+  padding: 50px 340px 65px 340px;
+  margin: auto;
+  text-align: center;
+}
